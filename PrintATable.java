@@ -14,12 +14,12 @@ public class PrintATable {
     public static void main(String[] args){
         int a, a_sqrd, a_cube, ctr;
 
-        System.out.println("a\t\ta^2\t\t\ta^3");
+        System.out.println("a\t\ta^2\t\ta^3");
         for (ctr = 1; ctr < 5; ctr++){
             a = ctr;
             a_sqrd = ctr * ctr;
             a_cube = ctr * ctr * ctr;
-            System.out.println(a+"\t\t"+a_sqrd+"\t\t\t"+a_cube);
+            System.out.println(a+"\t\t"+a_sqrd+"\t\t"+a_cube);
 
         }
     }
